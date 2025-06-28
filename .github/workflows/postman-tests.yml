@@ -2,7 +2,7 @@ name: Run Postman tests with Newman
 
 on:
   push:
-  branches:
+    branches:
       - main
     paths:
       - 'collection/**'
