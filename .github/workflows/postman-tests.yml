@@ -1,6 +1,5 @@
 name: Run Postman tests with Newman
 
-
 on:
   push:
     branches:
