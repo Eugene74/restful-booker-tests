@@ -3,6 +3,7 @@ name: Run Postman tests with Newman
 on:
   push:
     branches:
+      - github-actions
       - main
     paths:
       - 'collection/**'
