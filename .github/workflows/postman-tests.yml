@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - github-actions
+      - main
     paths:
       - 'collection/**'
   workflow_dispatch: {}
